@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Talon</title>
+  <desc id="desc">App icon inspired by the supplied Talon logo artwork, with cyan aerodynamic blades on a deep navy background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#17294b"/>
+      <stop offset="50%" stop-color="#101d36"/>
+      <stop offset="100%" stop-color="#0e172a"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9af5f2"/>
+      <stop offset="45%" stop-color="#69d8d5"/>
+      <stop offset="100%" stop-color="#39b7c3"/>
+    </linearGradient>
+    <linearGradient id="bladeDark" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d213d"/>
+      <stop offset="100%" stop-color="#08192e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M128 32 L154 118 L117 206 C114 212 110 216 103 219 C95 223 87 222 81 217 C76 211 75 202 80 194 L108 118 Z" fill="url(#blade)"/>
+    <path d="M128 32 L128 206 L96 232 C89 237 80 237 72 232 C64 226 60 216 63 208 L94 118 Z" fill="url(#blade)" opacity="0.96"/>
+    <path d="M128 32 L102 118 L139 206 C142 212 146 216 153 219 C161 223 169 222 175 217 C180 211 181 202 176 194 L148 118 Z" fill="url(#blade)"/>
+    <path d="M128 32 L122 118 L128 220 L134 118 Z" fill="url(#blade)" opacity="0.94"/>
+
+    <path d="M89 150 C58 153 38 169 34 192 C31 210 42 228 61 234 C77 239 94 234 105 221 C114 210 117 191 106 173 C103 167 96 154 89 150 Z" fill="url(#blade)"/>
+    <path d="M167 150 C198 153 218 169 222 192 C225 210 214 228 195 234 C179 239 162 234 151 221 C142 210 139 191 150 173 C153 167 160 154 167 150 Z" fill="url(#blade)"/>
+
+    <path d="M91 161 C73 170 58 182 58 200 C58 214 71 220 84 216 C96 212 105 195 103 181 C102 174 97 166 91 161 Z" fill="url(#bladeDark)"/>
+    <path d="M165 161 C183 170 198 182 198 200 C198 214 185 220 172 216 C160 212 151 195 153 181 C154 174 159 166 165 161 Z" fill="url(#bladeDark)"/>
+
+    <path d="M84 156 C68 157 51 166 45 182 C39 198 41 214 51 226 C63 239 82 241 96 230 C105 223 111 210 111 194 C111 180 103 166 84 156 Z" fill="url(#blade)" opacity="0.95"/>
+    <path d="M172 156 C188 157 205 166 211 182 C217 198 215 214 205 226 C193 239 174 241 160 230 C151 223 145 210 145 194 C145 180 153 166 172 156 Z" fill="url(#blade)" opacity="0.95"/>
+
+    <path d="M74 185 C52 195 39 212 41 225 C43 236 53 242 67 240 C83 237 93 226 95 210 C97 200 91 189 74 185 Z" fill="url(#bladeDark)"/>
+    <path d="M182 185 C204 195 217 212 215 225 C213 236 203 242 189 240 C173 237 163 226 161 210 C159 200 165 189 182 185 Z" fill="url(#bladeDark)"/>
+
+    <path d="M102 160 C90 147 78 135 74 122 C69 108 74 96 86 90 C97 84 111 89 117 103 C122 116 117 135 102 160 Z" fill="url(#bladeDark)" opacity="0.76"/>
+    <path d="M154 160 C166 147 178 135 182 122 C187 108 182 96 170 90 C159 84 145 89 139 103 C134 116 139 135 154 160 Z" fill="url(#bladeDark)" opacity="0.76"/>
+  </g>
+</svg>

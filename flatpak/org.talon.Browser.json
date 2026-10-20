@@ -1,0 +1,28 @@
+{
+  "app-id": "org.talon.Browser",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "46",
+  "sdk": "org.gnome.Sdk",
+  "command": "talon",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--device=dri",
+    "--share=network"
+  ],
+  "modules": [
+    {
+      "name": "talon",
+      "buildsystem": "simple",
+      "build-commands": [
+        "cargo build --release --offline",
+        "install -Dm755 target/release/talon /app/bin/talon",
+        "install -Dm644 data/org.talon.Browser.svg /app/share/icons/hicolor/scalable/apps/org.talon.Browser.svg"
+      ],
+      "sources": [
+        { "type": "dir", "path": "../" }
+      ]
+    }
+  ]
+}
