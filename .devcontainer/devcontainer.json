@@ -1,0 +1,9 @@
+{
+  "name": "Talon Dev",
+  "image": "mcr.microsoft.com/devcontainers/rust:1",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-libs:1": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libgtk-4-dev libadwaita-1-dev libwebkitgtk-6.0-dev xvfb x11vnc novnc",
+  "forwardPorts": [6080]
+}
