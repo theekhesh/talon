@@ -1,5 +1,5 @@
 use gtk4 as gtk;
-use libadwaita::prelude::AdwApplicationWindowExt;
+use gtk::prelude::*;
 use libadwaita as adw;
 use webkit6::prelude::*;
 use webkit6::WebView;
@@ -19,8 +19,6 @@ impl TalonWindow {
             .default_width(1200)
             .default_height(800)
             .build();
-
-        window.set_icon_name(Some("org.talon.Browser"));
 
         let header = adw::HeaderBar::new();
         let omnibox = gtk::Entry::builder()

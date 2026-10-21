@@ -17,8 +17,7 @@
       "buildsystem": "simple",
       "build-commands": [
         "cargo build --release --offline",
-        "install -Dm755 target/release/talon /app/bin/talon",
-        "install -Dm644 data/org.talon.Browser.svg /app/share/icons/hicolor/scalable/apps/org.talon.Browser.svg"
+        "install -Dm755 target/release/talon /app/bin/talon"
       ],
       "sources": [
         { "type": "dir", "path": "../" }
