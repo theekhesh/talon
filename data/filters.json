@@ -1,0 +1,10 @@
+[
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?(doubleclick\\.net|googlesyndication\\.com|google-analytics\\.com|googletagmanager\\.com|adservice\\.google\\.com|adnxs\\.com|scorecardresearch\\.com|taboola\\.com|outbrain\\.com|mixpanel\\.com|segment\\.io)(/|$)"
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]

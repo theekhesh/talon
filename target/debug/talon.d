@@ -1,0 +1,1 @@
+/workspaces/talon/target/debug/talon: /workspaces/talon/data/filters.json /workspaces/talon/src/main.rs /workspaces/talon/src/privacy/adblock.rs /workspaces/talon/src/privacy/mod.rs /workspaces/talon/src/privacy/settings.rs /workspaces/talon/src/privacy/storage.rs /workspaces/talon/src/ui/mod.rs /workspaces/talon/src/ui/window.rs

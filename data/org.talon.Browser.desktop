@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Talon
+Comment=A privacy-first, lightweight web browser
+Exec=talon
+Icon=org.talon.Browser
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true

@@ -1,0 +1,7 @@
+/workspaces/talon/target/release/deps/gtk4_sys-137d13e44b6167f5.d: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-sys-0.8.2/src/lib.rs
+
+/workspaces/talon/target/release/deps/libgtk4_sys-137d13e44b6167f5.rlib: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-sys-0.8.2/src/lib.rs
+
+/workspaces/talon/target/release/deps/libgtk4_sys-137d13e44b6167f5.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-sys-0.8.2/src/lib.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-sys-0.8.2/src/lib.rs:
