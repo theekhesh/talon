@@ -1,0 +1,9 @@
+/workspaces/talon/target/release/deps/gtk4_macros-59dda9be2cd1dab6.d: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/attribute_parser.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/composite_template_derive.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/template_callbacks_attribute.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/util.rs
+
+/workspaces/talon/target/release/deps/libgtk4_macros-59dda9be2cd1dab6.so: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/attribute_parser.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/composite_template_derive.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/template_callbacks_attribute.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/util.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/attribute_parser.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/composite_template_derive.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/template_callbacks_attribute.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gtk4-macros-0.11.5/src/util.rs:
